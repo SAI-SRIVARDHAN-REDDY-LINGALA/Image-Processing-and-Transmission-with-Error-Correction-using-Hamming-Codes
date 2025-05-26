@@ -46,6 +46,7 @@ your_project/
 ├── received.bin              # Corrupted data (generated)
 ├── recovered.png             # Decoded image before XOR
 ├── revealed.png              # FINAL: Hidden plan revealed!
+|── README.md                 # ALL ABOUT THE PROJECT
 ```
 
 ---
