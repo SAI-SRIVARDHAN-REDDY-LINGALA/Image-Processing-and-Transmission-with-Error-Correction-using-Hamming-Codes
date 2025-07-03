@@ -90,13 +90,13 @@ def hamming_encode_all(pixels):
         bits.extend(hamming_encode_byte(byte))
     return bits
 
-def hamming_decode_all(encoded_bits):
+def hamming_decode_all(received_bits): 
     """
     Decodes a bitarray of 12-bit Hamming blocks into original bytes.
     """
     decoded = []
-    for i in range(0, len(encoded_bits), 12):
-        block = encoded_bits[i:i+12]
+    for i in range(0, len(received_bits), 12):
+        block = received_bits[i:i+12]
         if len(block) < 12:
             break
         decoded.append(hamming_decode_block(list(block)))
