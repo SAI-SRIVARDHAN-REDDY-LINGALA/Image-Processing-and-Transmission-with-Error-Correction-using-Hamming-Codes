@@ -47,6 +47,7 @@ your_project/
 ├── recovered.png             # Decoded image before XOR
 ├── revealed.png              # FINAL: Hidden plan revealed!
 |── README.md                 # ALL ABOUT THE PROJECT
+|-- Flow chart of code.png    # FLOW CHART FOR BETTER UNDERSTANDING 
 ```
 
 ---
